@@ -1,0 +1,90 @@
+@import 'variables';
+
+.btn {
+  height: 55px;
+  font-size: 14px;
+  font-weight: $bold;
+  @include border-radius(30px);
+  padding: 0 30px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  &.btn-primary {
+    background: $primary-color;
+    color: white;
+
+    &:hover {
+      background: $primary-color-darker;
+    }
+    &:active {
+      background: $primary-color-darker;
+    }
+  }
+
+  &:hover {
+    @include box-shadow(2px 2px 20px 0 rgba(0,0,0,0.15));
+  }
+  &:active {
+    @include box-shadow(inset 3px 3px 5px 0 rgba(0, 0, 0, 0.2));
+  }
+
+  & .fa {
+    margin-left: 5px;
+  }
+
+  &.btn-block {
+    width: 100%;
+  }
+
+  &.btn-small {
+    height: 35px;
+    padding: 0 20px;
+    font-size: 12px;
+  }
+}
+
+.courseCTA {
+  background: #ffffff;
+  border: 1px solid #eaeef0;
+  @include box-shadow(2px 2px 4px 0 rgba(0,0,0,0.1));
+  @include border-radius(3px);
+  width: 200px;
+  padding: 30px;
+  height: 250px;
+  margin: 0 15px 30px;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  float: left;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+
+  & img {
+    max-width: 100px;
+    margin: 0 0 15px;
+  }
+  & p {
+    font-size: 18px;
+    line-height: 24px;
+    color: $dark-grey;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+  }
+
+  &:hover {
+    @include background-image(linear-gradient(-232deg, #FF7FCD 0%, #FFB855 100%));
+    @include box-shadow(2px 2px 20px 0 rgba(0,0,0,0.15));
+    @include border-radius(3px);
+
+    & p {
+      color: #ffffff;
+    }
+  }
+}

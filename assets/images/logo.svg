@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="94" height="25" viewBox="0 0 94 25">
+  <g fill="none" fill-rule="evenodd" transform="translate(-1 -7)">
+    <text fill="#211842" font-family="Dosis-Bold, Dosis" font-size="25" font-weight="bold">
+      <tspan x="0" y="26">Dsigns</tspan> <tspan x="65.75" y="26" letter-spacing="-.614">k</tspan> <tspan x="77.236" y="26">ol</tspan>
+    </text>
+    <path stroke="#845AF7" d="M2 31L28 31M44 31L94 31" stroke-linecap="square"/>
+  </g>
+</svg>
