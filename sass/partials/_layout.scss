@@ -147,3 +147,79 @@ body {
     }
   }
 }
+
+.hide {
+  display: none !important;
+}
+
+.sidebar {
+  background: $primary-color;
+  position: fixed;
+  right: -500px;
+  top: 0;
+  bottom: 0;
+  max-width: 250px;
+  color: #ffffff;
+  z-index: 9;
+  overflow: auto;
+
+  &.active {
+    right: 0;
+  }
+
+  & .fa-close {
+    padding: 30px;
+    float: right;
+  }
+
+  & > ul {
+    & > li {
+      & > span,
+      & > a {
+        padding: 20px 30px;
+        display: inline-block;
+        width: 100%;
+      }
+      & > span {
+        text-transform: uppercase;
+        @include opacity(0.5);
+        padding-bottom: 0;
+        font-weight: $bold;
+        font-size: 12px;
+      }
+      & > a {
+        color: #ffffff;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  /* smartphones, iPhone, portrait 480x320 phones */
+}
+@media (max-width: 481px) {
+  /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+}
+@media (max-width: 641px) {
+  /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+}
+@media (max-width: 961px) {
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+
+  .Header {
+    & > ul,
+    & > .btn {
+      display: none;
+    }
+    .hide {
+      display: inline-block !important;
+    }
+  }
+}
+@media (max-width: 1025px) {
+  /* big landscape tablets, laptops, and desktops */
+}
+@media (max-width: 1281px) {
+  /* hi-res laptops and desktops */
+}

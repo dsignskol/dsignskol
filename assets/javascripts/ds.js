@@ -8,6 +8,15 @@ $(document).ready(function() {
       .toggleClass('fa-angle-down fa-angle-up');
   });
 
+  $('.menu').click(function() {
+    $('.sidebar').addClass('active');
+  });
+  $('.sidebar .fa-close').click(function() {
+    $(this)
+      .parent()
+      .removeClass('active');
+  });
+
   $('#au').click(function(e) {
     e.preventDefault();
 
