@@ -1,0 +1,148 @@
+@import 'variables';
+
+.course-details {
+  & > .container {
+    max-width: 520px;
+
+    & .heading {
+      text-align: center;
+    }
+
+    & h1 {
+      font: {
+        size: 126px;
+        weight: $bolder;
+      }
+      line-height: 140px;
+      color: $primary-color;
+      margin: 30px 0 85px;
+    }
+
+    & h3 {
+      color: $primary-color;
+      font-size: 22px;
+      font-weight: $bold;
+      margin: 0 0 35px;
+
+      &:after {
+        content: '';
+        display: block;
+        width: 60px;
+        height: 2px;
+        margin: 10px 0;
+        background: $primary-color;
+      }
+    }
+
+    & p {
+      color: $black;
+      font-size: 18px;
+      line-height: 35px;
+      margin: 0 0 45px;
+    }
+
+    & dl {
+      & dt {
+        float: left;
+        width: 100px;
+        text-align: right;
+        color: $grey;
+        line-height: 35px;
+      }
+      & dd {
+        margin-left: 135px;
+        margin-bottom: 45px;
+
+        & h5 {
+          color: $grey;
+          font-size: 18px;
+          font-weight: $bold;
+          line-height: 35px;
+          margin-bottom: 15px;
+        }
+
+        & ul {
+          & li {
+            color: $dark-grey;
+            font-size: 16px;
+            margin-bottom: 15px;
+          }
+        }
+      }
+    }
+
+    & .section {
+      display: inline-block;
+      margin-bottom: 40px;
+      width: 100%;
+
+      &.first-child {
+        margin-top: 40px;
+      }
+    }
+
+    & .pill-nohover.co {
+      height: 260px;
+      float: left;
+      margin-bottom: 45px;
+
+      & > h5 {
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: $bold;
+        color: $dark-grey;
+        margin: 0 0 30px;
+      }
+      & > div {
+        margin: 0 0 30px;
+        line-height: 21px;
+
+        & > span {
+          display: inline-block;
+          width: 100%;
+        }
+      }
+      & > .help-text {
+        font-size: 12px;
+        line-height: 15px;
+      }
+    }
+
+    & .help-text {
+      color: $grey;
+    }
+
+    & .price-wrapper {
+      & > span {
+        display: inline-block;
+        width: 100%;
+
+        &.actuall-price {
+          color: $dark-grey;
+          font-size: 22px;
+          font-weight: $bold;
+          line-height: 30px;
+          margin: 0 0 15px;
+        }
+        &.tag {
+          color: $grey;
+          font-weight: $bold;
+          text-transform: uppercase;
+          border: 1px solid $grey;
+          padding: 3px;
+          width: auto;
+        }
+        &.price {
+          color: $black;
+          font-size: 42px;
+          font-weight: $bolder;
+          line-height: 50px;
+        }
+      }
+
+      & .btn-primary {
+        margin: 30px 0;
+      }
+    }
+  }
+}
