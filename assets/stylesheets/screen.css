@@ -68,7 +68,24 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 /* line 3, ../../sass/partials/_components.scss */
-.btn {
+.im-checkout > a {
+  background: #845af7;
+  color: white;
+  text-align: center;
+  justify-content: center;
+}
+/* line 9, ../../sass/partials/_components.scss */
+.im-checkout > a:hover {
+  background: #5d39bf;
+}
+/* line 12, ../../sass/partials/_components.scss */
+.im-checkout > a:active {
+  background: #5d39bf;
+}
+
+/* line 17, ../../sass/partials/_components.scss */
+.btn,
+.im-checkout > a {
   height: 55px;
   font-size: 14px;
   font-weight: 600;
@@ -84,52 +101,60 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   text-decoration: none;
   text-transform: uppercase;
 }
-/* line 17, ../../sass/partials/_components.scss */
-.btn.btn-primary {
+/* line 32, ../../sass/partials/_components.scss */
+.btn.btn-primary,
+.im-checkout > a.btn-primary {
   background: #845af7;
   color: white;
 }
-/* line 21, ../../sass/partials/_components.scss */
-.btn.btn-primary:hover {
+/* line 36, ../../sass/partials/_components.scss */
+.btn.btn-primary:hover,
+.im-checkout > a.btn-primary:hover {
   background: #5d39bf;
 }
-/* line 24, ../../sass/partials/_components.scss */
-.btn.btn-primary:active {
+/* line 39, ../../sass/partials/_components.scss */
+.btn.btn-primary:active,
+.im-checkout > a.btn-primary:active {
   background: #5d39bf;
 }
-/* line 29, ../../sass/partials/_components.scss */
-.btn:hover {
+/* line 44, ../../sass/partials/_components.scss */
+.btn:hover,
+.im-checkout > a:hover {
   -moz-box-shadow: 2px 2px 20px 0 rgba(0, 0, 0, 0.15);
   -webkit-box-shadow: 2px 2px 20px 0 rgba(0, 0, 0, 0.15);
   box-shadow: 2px 2px 20px 0 rgba(0, 0, 0, 0.15);
 }
-/* line 32, ../../sass/partials/_components.scss */
-.btn:active {
+/* line 47, ../../sass/partials/_components.scss */
+.btn:active,
+.im-checkout > a:active {
   -moz-box-shadow: inset 3px 3px 5px 0 rgba(0, 0, 0, 0.2);
   -webkit-box-shadow: inset 3px 3px 5px 0 rgba(0, 0, 0, 0.2);
   box-shadow: inset 3px 3px 5px 0 rgba(0, 0, 0, 0.2);
 }
-/* line 36, ../../sass/partials/_components.scss */
-.btn .fa {
+/* line 51, ../../sass/partials/_components.scss */
+.btn .fa,
+.im-checkout > a .fa {
   margin-left: 5px;
 }
-/* line 40, ../../sass/partials/_components.scss */
-.btn.btn-block {
+/* line 55, ../../sass/partials/_components.scss */
+.btn.btn-block,
+.im-checkout > a.btn-block {
   width: 100%;
 }
-/* line 44, ../../sass/partials/_components.scss */
-.btn.btn-small {
+/* line 59, ../../sass/partials/_components.scss */
+.btn.btn-small,
+.im-checkout > a.btn-small {
   height: 35px;
   padding: 0 20px;
   font-size: 12px;
 }
 
-/* line 51, ../../sass/partials/_components.scss */
+/* line 66, ../../sass/partials/_components.scss */
 .courseCTA,
 .pill {
   cursor: pointer;
 }
-/* line 55, ../../sass/partials/_components.scss */
+/* line 70, ../../sass/partials/_components.scss */
 .courseCTA:hover,
 .pill:hover {
   background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9Ii0wLjA1MzA1NCIgeTE9IjAuMDY3OTA3IiB4Mj0iMS4wNTMwNTQiIHkyPSIwLjkzMjA5MyI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmN2ZjZCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2ZmYjg1NSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
@@ -141,13 +166,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   -webkit-box-shadow: 2px 2px 20px 0 rgba(0, 0, 0, 0.15);
   box-shadow: 2px 2px 20px 0 rgba(0, 0, 0, 0.15);
 }
-/* line 59, ../../sass/partials/_components.scss */
+/* line 74, ../../sass/partials/_components.scss */
 .courseCTA:hover p,
 .pill:hover p {
   color: #ffffff;
 }
 
-/* line 65, ../../sass/partials/_components.scss */
+/* line 80, ../../sass/partials/_components.scss */
 .courseCTA,
 .pill,
 .pill-nohover {
@@ -171,14 +196,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   text-align: center;
   text-decoration: none;
 }
-/* line 84, ../../sass/partials/_components.scss */
+/* line 99, ../../sass/partials/_components.scss */
 .courseCTA img,
 .pill img,
 .pill-nohover img {
   max-width: 100px;
   margin: 0 0 15px;
 }
-/* line 88, ../../sass/partials/_components.scss */
+/* line 103, ../../sass/partials/_components.scss */
 .courseCTA p,
 .pill p,
 .pill-nohover p {
@@ -698,6 +723,6 @@ img {
   line-height: 50px;
 }
 /* line 143, ../../sass/partials/_course.scss */
-.course-details > .container .price-wrapper .btn-primary {
+.course-details > .container .price-wrapper .im-checkout > a {
   margin: 30px 0;
 }

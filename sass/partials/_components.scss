@@ -1,6 +1,21 @@
 @import 'variables';
 
-.btn {
+.im-checkout > a {
+  background: $primary-color;
+  color: white;
+  text-align: center;
+  justify-content: center;
+
+  &:hover {
+    background: $primary-color-darker;
+  }
+  &:active {
+    background: $primary-color-darker;
+  }
+}
+
+.btn,
+.im-checkout > a {
   height: 55px;
   font-size: 14px;
   font-weight: $bold;
