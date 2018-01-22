@@ -834,63 +834,68 @@ img {
 @media (max-width: 961px) {
   /* tablet, landscape iPad, lo-res laptops ands desktops */
   /* line 21, ../../sass/partials/_responsive.scss */
+  .wrapper {
+    padding-top: 50px;
+  }
+
+  /* line 25, ../../sass/partials/_responsive.scss */
   .Header {
     padding: 15px !important;
   }
 
-  /* line 25, ../../sass/partials/_responsive.scss */
+  /* line 29, ../../sass/partials/_responsive.scss */
   .course-details > .container {
     padding: 30px;
   }
-  /* line 29, ../../sass/partials/_responsive.scss */
+  /* line 33, ../../sass/partials/_responsive.scss */
   .course-details > .container .heading h1 {
     font-size: 30px;
     line-height: 32px;
   }
 
-  /* line 37, ../../sass/partials/_responsive.scss */
+  /* line 41, ../../sass/partials/_responsive.scss */
   .homepage .container .scrollIndi {
     margin: 0;
   }
-  /* line 41, ../../sass/partials/_responsive.scss */
+  /* line 45, ../../sass/partials/_responsive.scss */
   .homepage h1 {
     font-size: 30px;
     line-height: 32px;
   }
-  /* line 45, ../../sass/partials/_responsive.scss */
+  /* line 49, ../../sass/partials/_responsive.scss */
   .homepage .ds-promise h2 {
     font-size: 26px;
     line-height: 30px;
   }
-  /* line 50, ../../sass/partials/_responsive.scss */
+  /* line 54, ../../sass/partials/_responsive.scss */
   .homepage .faq .question {
     display: inline-block;
     height: auto;
   }
-  /* line 54, ../../sass/partials/_responsive.scss */
+  /* line 58, ../../sass/partials/_responsive.scss */
   .homepage .faq .question > span, .homepage .faq .question > p {
     display: inline-block;
     width: 100%;
     text-align: left;
   }
-  /* line 61, ../../sass/partials/_responsive.scss */
+  /* line 65, ../../sass/partials/_responsive.scss */
   .homepage .faq .question > span {
     padding-bottom: 0;
     padding-top: 50px;
   }
-  /* line 65, ../../sass/partials/_responsive.scss */
+  /* line 69, ../../sass/partials/_responsive.scss */
   .homepage .faq .question > p {
     padding-top: 30px;
     padding-bottom: 50px;
   }
 
-  /* line 72, ../../sass/partials/_responsive.scss */
+  /* line 76, ../../sass/partials/_responsive.scss */
   .footer .container {
     flex-direction: column;
     padding: 30px;
     padding-bottom: 0;
   }
-  /* line 77, ../../sass/partials/_responsive.scss */
+  /* line 81, ../../sass/partials/_responsive.scss */
   .footer .container > p {
     padding-bottom: 30px;
   }

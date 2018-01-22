@@ -18,6 +18,10 @@
 @media (max-width: 961px) {
   /* tablet, landscape iPad, lo-res laptops ands desktops */
 
+  .wrapper {
+    padding-top: 50px;
+  }
+
   .Header {
     padding: 15px !important;
   }
