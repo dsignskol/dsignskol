@@ -1,0 +1,87 @@
+@media (max-width: 320px) {
+  /* smartphones, iPhone, portrait 480x320 phones */
+}
+@media (max-width: 481px) {
+  /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+
+  .course-details > .container {
+    & .heading {
+      & img {
+        display: none;
+      }
+    }
+  }
+}
+@media (max-width: 641px) {
+  /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+}
+@media (max-width: 961px) {
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+
+  .Header {
+    padding: 15px !important;
+  }
+
+  .course-details > .container {
+    padding: 30px;
+
+    & .heading {
+      & h1 {
+        font-size: 30px;
+        line-height: 32px;
+      }
+    }
+  }
+
+  .homepage {
+    & .container .scrollIndi {
+      margin: 0;
+    }
+
+    & h1 {
+      font-size: 30px;
+      line-height: 32px;
+    }
+    & .ds-promise h2 {
+      font-size: 26px;
+      line-height: 30px;
+    }
+
+    & .faq .question {
+      display: inline-block;
+      height: auto;
+
+      & > span,
+      & > p {
+        display: inline-block;
+        width: 100%;
+        text-align: left;
+      }
+
+      & > span {
+        padding-bottom: 0;
+        padding-top: 50px;
+      }
+      & > p {
+        padding-top: 30px;
+        padding-bottom: 50px;
+      }
+    }
+  }
+
+  .footer .container {
+    flex-direction: column;
+    padding: 30px;
+    padding-bottom: 0;
+
+    & > p {
+      padding-bottom: 30px;
+    }
+  }
+}
+@media (max-width: 1025px) {
+  /* big landscape tablets, laptops, and desktops */
+}
+@media (max-width: 1281px) {
+  /* hi-res laptops and desktops */
+}

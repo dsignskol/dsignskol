@@ -85,6 +85,10 @@
     color: #ffffff;
     padding: 50px 0;
 
+    & > .container {
+      padding-bottom: 0;
+    }
+
     & .small-title {
       text-transform: uppercase;
       font-size: 12px;
@@ -99,12 +103,16 @@
     }
 
     & ul {
+      display: flex;
+      flex-wrap: wrap;
+
       & > li {
         color: #ffffff;
         font-size: 14px;
-        padding: 0 25px;
+        padding: 0 25px 50px;
         position: relative;
-        float: left;
+        min-width: 150px;
+        flex: 1;
 
         &:before {
           content: '';
@@ -148,6 +156,7 @@
     & .question {
       height: 215px;
       width: 750px;
+      max-width: 100%;
       text-decoration: none;
       display: flex;
       align-items: center;
@@ -197,10 +206,4 @@ img {
 @font-face {
   font-family: 'DSNum';
   src: url('../fonts/DSNum.otf');
-}
-
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-  .HomePage span.homeImage {
-    background-image: url('../images/home@2x.png');
-  }
 }
