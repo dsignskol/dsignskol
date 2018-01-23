@@ -391,33 +391,38 @@ body {
 }
 
 /* line 156, ../../sass/partials/_layout.scss */
+.disable-scroll {
+  overflow: hidden;
+}
+
+/* line 160, ../../sass/partials/_layout.scss */
 .sidebar {
   background: #845af7;
   position: fixed;
-  right: -500px;
-  top: 0;
+  right: -1000px;
+  top: 55px;
+  padding-top: 15px;
   bottom: 0;
-  max-width: 250px;
   color: #ffffff;
   z-index: 9;
   overflow: auto;
 }
-/* line 167, ../../sass/partials/_layout.scss */
+/* line 171, ../../sass/partials/_layout.scss */
 .sidebar.active {
   right: 0;
 }
-/* line 171, ../../sass/partials/_layout.scss */
+/* line 175, ../../sass/partials/_layout.scss */
 .sidebar .fa-close {
   padding: 30px;
   float: right;
 }
-/* line 178, ../../sass/partials/_layout.scss */
+/* line 182, ../../sass/partials/_layout.scss */
 .sidebar > ul > li > span, .sidebar > ul > li > a {
   padding: 20px 30px;
   display: inline-block;
   width: 100%;
 }
-/* line 184, ../../sass/partials/_layout.scss */
+/* line 188, ../../sass/partials/_layout.scss */
 .sidebar > ul > li > span {
   text-transform: uppercase;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
@@ -426,7 +431,7 @@ body {
   font-weight: 600;
   font-size: 12px;
 }
-/* line 191, ../../sass/partials/_layout.scss */
+/* line 195, ../../sass/partials/_layout.scss */
 .sidebar > ul > li > a {
   color: #ffffff;
   text-decoration: none;
@@ -443,11 +448,11 @@ body {
 }
 @media (max-width: 961px) {
   /* tablet, landscape iPad, lo-res laptops ands desktops */
-  /* line 212, ../../sass/partials/_layout.scss */
+  /* line 216, ../../sass/partials/_layout.scss */
   .Header > ul, .Header > .btn {
     display: none;
   }
-  /* line 216, ../../sass/partials/_layout.scss */
+  /* line 220, ../../sass/partials/_layout.scss */
   .Header .hide {
     display: inline-block !important;
   }

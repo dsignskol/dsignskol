@@ -9,12 +9,11 @@ $(document).ready(function() {
   });
 
   $('.menu').click(function() {
-    $('.sidebar').addClass('active');
-  });
-  $('.sidebar .fa-close').click(function() {
     $(this)
-      .parent()
-      .removeClass('active');
+      .find('.fa')
+      .toggleClass('fa-bars fa-close');
+    $('.sidebar').toggleClass('active');
+    $('body').toggleClass('disable-scroll');
   });
 
   $('#au').click(function(e) {
