@@ -26,7 +26,8 @@
     padding: 15px !important;
   }
 
-  .course-details > .container {
+  .course-details > .container,
+  .readable > .container {
     padding: 30px;
 
     & .heading {

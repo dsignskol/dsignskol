@@ -200,6 +200,68 @@ body {
   }
 }
 
+.readable {
+  & > .container {
+    max-width: 650px;
+
+    & .heading {
+      text-align: center;
+    }
+
+    & h1 {
+      font: {
+        size: 126px;
+        weight: $bolder;
+      }
+      line-height: 140px;
+      color: $primary-color;
+      margin: 30px 0 85px;
+    }
+
+    & p {
+      color: $black;
+      font-size: 18px;
+      line-height: 30px;
+      margin: 0 0 45px;
+    }
+
+    & h3 {
+      font: {
+        size: 26px;
+        weight: $bold;
+      }
+      line-height: 30px;
+      color: $black;
+      margin: 0 0 15px;
+    }
+
+    & ul {
+      margin: 0 0 45px;
+
+      & li {
+        color: $black;
+        font-size: 18px;
+        line-height: 30px;
+        margin: 0 0 15px;
+        padding: 0 0 0 30px;
+        position: relative;
+
+        &:before {
+          content: '';
+          @include border-radius(50%);
+          display: inline-block;
+          width: 7px;
+          height: 7px;
+          background: $primary-color;
+          position: absolute;
+          left: 10px;
+          top: 12px;
+        }
+      }
+    }
+  }
+}
+
 @media (max-width: 320px) {
   /* smartphones, iPhone, portrait 480x320 phones */
 }
