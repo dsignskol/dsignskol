@@ -860,8 +860,9 @@ img {
   font-weight: 600;
   line-height: 30px;
   margin: 0 0 15px;
+  text-decoration: line-through;
 }
-/* line 127, ../../sass/partials/_course.scss */
+/* line 128, ../../sass/partials/_course.scss */
 .course-details > .container .price-wrapper > span.tag {
   color: #a6a6ac;
   font-weight: 600;
@@ -870,14 +871,14 @@ img {
   padding: 3px;
   width: auto;
 }
-/* line 135, ../../sass/partials/_course.scss */
+/* line 136, ../../sass/partials/_course.scss */
 .course-details > .container .price-wrapper > span.price {
   color: #211842;
   font-size: 42px;
   font-weight: 800;
   line-height: 50px;
 }
-/* line 143, ../../sass/partials/_course.scss */
+/* line 144, ../../sass/partials/_course.scss */
 .course-details > .container .price-wrapper .im-checkout > a {
   margin: 30px 0;
 }
