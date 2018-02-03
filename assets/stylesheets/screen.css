@@ -300,11 +300,26 @@ body {
   display: flex;
   align-items: center;
 }
-/* line 64, ../../sass/partials/_layout.scss */
+/* line 63, ../../sass/partials/_layout.scss */
+.Header .contactMenu {
+  display: flex;
+  flex-wrap: wrap;
+}
+/* line 67, ../../sass/partials/_layout.scss */
+.Header .contactMenu .tel {
+  color: #211842;
+  text-decoration: none;
+  display: inline-block;
+  margin: 11px 21px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 600;
+}
+/* line 79, ../../sass/partials/_layout.scss */
 .Header > ul > li {
   float: left;
 }
-/* line 67, ../../sass/partials/_layout.scss */
+/* line 82, ../../sass/partials/_layout.scss */
 .Header > ul > li > a {
   color: #211842;
   text-decoration: none;
@@ -314,13 +329,13 @@ body {
   font-size: 12px;
   font-weight: 600;
 }
-/* line 76, ../../sass/partials/_layout.scss */
+/* line 91, ../../sass/partials/_layout.scss */
 .Header > ul > li > a.active {
   color: #845af7;
   border-bottom: 2px solid #845af7;
 }
 
-/* line 85, ../../sass/partials/_layout.scss */
+/* line 100, ../../sass/partials/_layout.scss */
 .dropdownHolder {
   background: #845af7;
   color: #ffffff;
@@ -331,36 +346,36 @@ body {
   z-index: 3;
   display: none;
 }
-/* line 95, ../../sass/partials/_layout.scss */
+/* line 110, ../../sass/partials/_layout.scss */
 .dropdownHolder.scrolled {
   position: fixed;
   top: 65px;
 }
-/* line 100, ../../sass/partials/_layout.scss */
+/* line 115, ../../sass/partials/_layout.scss */
 .dropdownHolder .container {
   display: flex;
   justify-content: center;
   text-align: center;
   padding: 30px 0 0;
 }
-/* line 106, ../../sass/partials/_layout.scss */
+/* line 121, ../../sass/partials/_layout.scss */
 .dropdownHolder .container .courseCTA {
   border: none;
 }
 
-/* line 118, ../../sass/partials/_layout.scss */
+/* line 133, ../../sass/partials/_layout.scss */
 .container {
   max-width: 960px;
   margin: auto;
   padding: 50px 0;
 }
 
-/* line 124, ../../sass/partials/_layout.scss */
+/* line 139, ../../sass/partials/_layout.scss */
 .container-fluid {
   padding: 50px;
 }
 
-/* line 128, ../../sass/partials/_layout.scss */
+/* line 143, ../../sass/partials/_layout.scss */
 .footer {
   background: #845af7;
   padding: 50px 0;
@@ -369,38 +384,38 @@ body {
   left: 0;
   right: 0;
 }
-/* line 136, ../../sass/partials/_layout.scss */
+/* line 151, ../../sass/partials/_layout.scss */
 .footer .container {
   display: flex;
   padding: 25px 0;
   justify-content: space-between;
 }
-/* line 141, ../../sass/partials/_layout.scss */
+/* line 156, ../../sass/partials/_layout.scss */
 .footer .container p {
   color: #ffffff;
   font-size: 12px;
   margin: 0 0 25px;
 }
-/* line 146, ../../sass/partials/_layout.scss */
+/* line 161, ../../sass/partials/_layout.scss */
 .footer .container p:last-child {
   margin-bottom: 0;
 }
-/* line 150, ../../sass/partials/_layout.scss */
+/* line 165, ../../sass/partials/_layout.scss */
 .footer .container p .fa-heart {
   color: red;
 }
 
-/* line 157, ../../sass/partials/_layout.scss */
+/* line 172, ../../sass/partials/_layout.scss */
 .hide {
   display: none !important;
 }
 
-/* line 161, ../../sass/partials/_layout.scss */
+/* line 176, ../../sass/partials/_layout.scss */
 .disable-scroll {
   overflow: hidden;
 }
 
-/* line 165, ../../sass/partials/_layout.scss */
+/* line 180, ../../sass/partials/_layout.scss */
 .sidebar {
   background: #845af7;
   position: fixed;
@@ -412,22 +427,22 @@ body {
   z-index: 9;
   overflow: auto;
 }
-/* line 176, ../../sass/partials/_layout.scss */
+/* line 191, ../../sass/partials/_layout.scss */
 .sidebar.active {
   right: 0;
 }
-/* line 180, ../../sass/partials/_layout.scss */
+/* line 195, ../../sass/partials/_layout.scss */
 .sidebar .fa-close {
   padding: 30px;
   float: right;
 }
-/* line 187, ../../sass/partials/_layout.scss */
+/* line 202, ../../sass/partials/_layout.scss */
 .sidebar > ul > li > span, .sidebar > ul > li > a {
   padding: 20px 30px;
   display: inline-block;
   width: 100%;
 }
-/* line 193, ../../sass/partials/_layout.scss */
+/* line 208, ../../sass/partials/_layout.scss */
 .sidebar > ul > li > span {
   text-transform: uppercase;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
@@ -436,21 +451,21 @@ body {
   font-weight: 600;
   font-size: 12px;
 }
-/* line 200, ../../sass/partials/_layout.scss */
+/* line 215, ../../sass/partials/_layout.scss */
 .sidebar > ul > li > a {
   color: #ffffff;
   text-decoration: none;
 }
 
-/* line 209, ../../sass/partials/_layout.scss */
+/* line 224, ../../sass/partials/_layout.scss */
 .readable > .container {
   max-width: 650px;
 }
-/* line 212, ../../sass/partials/_layout.scss */
+/* line 227, ../../sass/partials/_layout.scss */
 .readable > .container .heading {
   text-align: center;
 }
-/* line 216, ../../sass/partials/_layout.scss */
+/* line 231, ../../sass/partials/_layout.scss */
 .readable > .container h1 {
   font-size: 126px;
   font-weight: 800;
@@ -458,14 +473,14 @@ body {
   color: #845af7;
   margin: 30px 0 85px;
 }
-/* line 226, ../../sass/partials/_layout.scss */
+/* line 241, ../../sass/partials/_layout.scss */
 .readable > .container p {
   color: #211842;
   font-size: 18px;
   line-height: 30px;
   margin: 0 0 45px;
 }
-/* line 233, ../../sass/partials/_layout.scss */
+/* line 248, ../../sass/partials/_layout.scss */
 .readable > .container h3 {
   font-size: 26px;
   font-weight: 600;
@@ -473,11 +488,11 @@ body {
   color: #211842;
   margin: 0 0 15px;
 }
-/* line 243, ../../sass/partials/_layout.scss */
+/* line 258, ../../sass/partials/_layout.scss */
 .readable > .container ul {
   margin: 0 0 45px;
 }
-/* line 246, ../../sass/partials/_layout.scss */
+/* line 261, ../../sass/partials/_layout.scss */
 .readable > .container ul li {
   color: #211842;
   font-size: 18px;
@@ -486,7 +501,7 @@ body {
   padding: 0 0 0 30px;
   position: relative;
 }
-/* line 254, ../../sass/partials/_layout.scss */
+/* line 269, ../../sass/partials/_layout.scss */
 .readable > .container ul li:before {
   content: '';
   -moz-border-radius: 50%;
@@ -512,11 +527,12 @@ body {
 }
 @media (max-width: 961px) {
   /* tablet, landscape iPad, lo-res laptops ands desktops */
-  /* line 283, ../../sass/partials/_layout.scss */
-  .Header > ul, .Header > .btn {
+  /* line 298, ../../sass/partials/_layout.scss */
+  .Header > ul, .Header > .btn,
+  .Header .contactMenu {
     display: none;
   }
-  /* line 287, ../../sass/partials/_layout.scss */
+  /* line 303, ../../sass/partials/_layout.scss */
   .Header .hide {
     display: inline-block !important;
   }
